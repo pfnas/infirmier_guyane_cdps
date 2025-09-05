@@ -903,4 +903,21 @@ body.dark-mode footer {
     width: 100%;
   }
 }
+#dark-mode-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #009739 0%, #FFD100 100%);
+  border: none;
+  border-radius: 50%;
+  padding: 6px;   /* réduit pour laisser plus de place au logo */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#dark-mode-btn img {
+  width: 36px;   /* taille fixe du toucan */
+  height: 36px;
+}
 
