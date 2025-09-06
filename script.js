@@ -63,3 +63,19 @@ const darkModeBtn = document.getElementById("dark-mode-btn");
 darkModeBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
+
+const sectionNav = document.querySelector('.section-nav');
+
+// menu caché par défaut
+sectionNav.style.opacity = '0';
+sectionNav.style.transform = 'translateY(-20px)';
+
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 50){  // seuil pour déclencher l'apparition
+    sectionNav.style.opacity = '1';
+    sectionNav.style.transform = 'translateY(0)';
+  } else {
+    sectionNav.style.opacity = '0';
+    sectionNav.style.transform = 'translateY(-20px)';
+  }
+});
