@@ -363,12 +363,13 @@
                     L'orpaillage
                     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />
                 </h2>
-                <p>Véritable fléau en Guyane, l'orpaillage.
+                <p>
+                    Véritable fléau en Guyane, l'orpaillage.
                     Il est concentré sur sur le Maroni essentiellement. En navigant sur le fleuve 
                     c'est des dizaines et des dizaines
                     de barges d'orpaillage, de camps d'orpailleurs, ou garimperos que l'on peut rencontrer, 
                     on les voit au milieu de la foret
-                    quand on la survole en avion. Le fleuve porte les
+                    quand on la survole en avion. Le fleuve en porte les
                     stigmates qu'on aperçoit sur les berges en saison sèche tellement la
                     végétation en est détruite
                     à cause du mercure utilisé pour extraire l'or.
@@ -459,7 +460,7 @@
         
     </main>
     <button id="dark-mode-btn">
-        <img src="./assets/toucan-loader.png" alt="Dark Mode" class="icon-toucan">
+        <img src="./assets/toucan-loader.png" alt="Dark Mode" class="icon-title">
     </button>         
  
 
@@ -472,6 +473,13 @@
    
     <!-- Bouton flottant CDPS (visible uniquement sur mobile/tablette) -->
             <a href="cdps.html" class="btn-cdps">CDPS</a>
+            <!-- Lightbox générique -->
+<div id="lightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
+background:rgba(0,0,0,0.85); justify-content:center; align-items:center; z-index:2000;">
+  <span id="lightbox-close" style="position:absolute; top:20px; right:30px; font-size:2rem; color:#fff; cursor:pointer;">&times;</span>
+  <img id="lightbox-img" src="" alt="" style="max-width:90%; max-height:90%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.5);" />
+</div>
+
 
 
     <script src="./script.js"></script>
