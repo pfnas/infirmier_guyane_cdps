@@ -43,6 +43,36 @@ main,
   border: 1px solid rgba(0,0,0,0.05); /* subtile bordure pour relief */
   border-radius: 12px;
 }
+/* =======================
+   Blockquote - style global
+======================= */
+blockquote {
+  font-style: italic;       /* italique */
+  font-weight: bold;        /* gras */
+  margin: 1em 0;            /* espace avant/après */
+  padding-left: 1em;        /* indentation à gauche */
+  border-left: 4px solid #ccc; /* ligne verticale */
+  color: #555;              /* couleur texte */
+}
+
+/* =======================
+   Blockquote - style responsive mobile
+======================= */
+@media (max-width: 768px) { 
+ ÷
+  .thumbnails-several img:nth-child(3) { 
+    display: none; 
+  }
+
+  blockquote {
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 1em;
+    border-left: 4px solid #ccc;
+    color: #555;
+  }
+}
+
 
 /* Dark mode ajustement */
 body.dark-mode main,
@@ -531,8 +561,14 @@ button.nav.right{ right: 16px; }
 }
 .thumbnails-several img:hover{ transform: scale(1.02); z-index: 5; }
 @media (max-width: 768px){ 
-  .thumbnails-several img{ width:95%; max-height:none; } 
-  .thumbnails-several img:nth-child(3){ display:none; } 
+  #bloc_unique img { 
+    width: 95%; 
+    max-height: none; 
+  } 
+  /* Cible uniquement le 3ème enfant du bloc avec id "bloc_unique" */
+  #bloc_unique img:nth-child(3) { 
+    display: none; 
+  } 
 }
 
 /* =======================
