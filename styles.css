@@ -193,6 +193,7 @@ h1, h2, h3, h4 {
   margin: 1.2em auto 0.6em; 
   line-height: 1.4;
   transition: text-align 0.4s ease;
+  text-align: center;
 }
 
 h1 .icon-title,
