@@ -559,7 +559,7 @@ button.nav.right{ right: 16px; }
   border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,.15);
   cursor: pointer; transition: transform 0.6s cubic-bezier(0.34,1.56,0.64,1);
 }
-.thumbnails-several img:hover{ transform: scale(1.02); z-index: 5; }
+.thumbnails-several img:hover{ transform: scale(1.2); z-index: 5; }
 @media (max-width: 768px){ 
   #bloc_unique img { 
     width: 95%; 

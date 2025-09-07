@@ -79,3 +79,4 @@ window.addEventListener('scroll', () => {
     sectionNav.style.transform = 'translateY(-20px)';
   }
 });
+
