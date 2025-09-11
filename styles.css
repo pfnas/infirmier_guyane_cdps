@@ -46,7 +46,7 @@ main,
 /* =======================
    Blockquote - style global
 ======================= */
-blockquote {
+blockquote, .caption {
   font-style: italic;       /* italique */
   font-weight: bold;        /* gras */
   margin: 1em 0;            /* espace avant/après */

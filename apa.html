@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     *<link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title> Infirmier en Guyane: Apa</title>
 </head>
  <header>
   <div class="logo">
@@ -13,9 +13,9 @@
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
   </div>
 
-  <h1>
+  <h1 id="retour">
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-    Infirmier en Guyane: APA
+    Infirmier en Guyane: Apa
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
   </h1>
 
@@ -31,7 +31,6 @@
   <nav>
     <ul class="nav-list">
       <li><a href="./index.html">Accueil</a></li>
-
       <li class="dropdown">
         <a href="#" class="dropdown-toggle">CDPS</a>
         <ul class="dropdown-menu">
@@ -41,9 +40,9 @@
           <li><a href="./cam.html">Camopi & Régina</a></li>
           <li><a href="./apa.html">Apatou</a></li>
           <li><a href="./cac.html">Cacao & Marais de Kaw</a></li>
+          <li><a href="./mar.html">Maripasoula , Cayenne, saint Laurent du Maroni</a></li>
         </ul>
       </li>
-
       <li><a href="#guyane">A propos</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -58,20 +57,29 @@
         <img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />
         </h2>
           <p>
-            
+            Il est situé à la fin de la N2 qui "doit" dans le futur rallier les communes situées le 
+            le long du Maroni et permettre à terme de désenclaver ces Communes jusqu'à Maripasoula voire 
+            Papïchton, mais quand?
           </p>
-    <div class="illustration-block">
+
+          <p>
+              J'y aurai vécu mon premier accouchement, lors de mon premier passage, et
+              j'y reviendrai bien plus tard lors d'un deuxième séjour 
+              restera le dernier CDPS ou j'aurai exercé.            
+          </p>
+           <div class="thumbnails-several">
+            <img src="./assets/apa1_soin.webp" alt="interieur ps">
+            <img src="./assets/apa2_soin.webp" alt="interieur ps">
+            <img src="./assets/apa3_soin.webp" alt="interieur ps">
+            <img src="./assets/apa4_soin.webp" alt="interieur ps">
+           </div>
+    <!-- <div class="illustration-block">
       <div class="image-container">       
-        <!-- <img src="./assets/stg_cdps.webp" alt="Illustration CDPS" class="illustration-75" />
-        <div class="caption">
-          Saint Georges de l'Oyapocke
-        </div>
-         <img src="./assets/stg_frontiere_resultat.webp" alt="pont" class="illustration-75"> -->
-      </div>
-        
-    </div>  
-    <img src="./assets/stg_cdps.webp" alt="test lightbox">
- 
+       <img src="./assets/apa_casa.webp" alt="hamac" class="illustration-75" >
+       <div class="caption">Petite soirée à la casa</div>
+      </div>        
+    </div>   -->
+   
     
 </main>
     <button id="dark-mode-btn">
@@ -84,7 +92,8 @@
     </footer>
    
     <!-- ================= BOUTON FLOTTANT ================= -->
-    <a href="cdps.html" class="btn-cdps">CDPS</a>
+     <!-- Bouton flottant CDPS (visible uniquement sur mobile/tablette) -->
+            <a href="#retour" class="btn-cdps">Menu</a>
 
     <!-- ================= SCRIPTS ================= -->
      <!-- Lightbox générique -->

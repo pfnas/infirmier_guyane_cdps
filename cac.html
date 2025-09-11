@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Infirmier en Guyane : CAC & KAW</title>
 </head>
  <header>
   <div class="logo">
@@ -13,9 +13,9 @@
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
   </div>
 
-  <h1>
+  <h1 id="retour">
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-    Infirmier en Guyane
+    Infirmier en Guyane : Cac & Kaw
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
   </h1>
 
@@ -41,6 +41,7 @@
           <li><a href="./cam.html">Camopi & Régina</a></li>
           <li><a href="./apa.html">Apatou</a></li>
           <li><a href="./cac.html">Cacao & Marais de Kaw</a></li>
+          <li><a href="./mar.html">Maripasoula , Cayenne, saint Laurent du Maroni</a></li>
         </ul>
       </li>
 
@@ -90,12 +91,20 @@
           Le village de Cacao est habité 
           par des familles Hmong venues du Laos dans 
           les années 1970. Ici, ils cultivent fruits, 
-          légumes et élèvent buffles, tout en préservant leurs traditions et leur culture. 
+          légumes et élèvent des buffles, tout en préservant leurs traditions et leur culture. 
           Le marché dominical animé révèle la richesse de leur savoir-faire local. 
           Pour un infirmier, Cacao illustre comment une communauté 
           isolée peut bâtir un mode de vie sain et solidaire, 
           alliant travail agricole et cohésion sociale.
          </p>
+         <div class="thumbnails-several">
+          <img src="./assets/cac_mairie.webp" alt="MAR">
+          <img src="./assets/cac1_marche.webp" alt="mar">
+          <img src="./assets/cac2_marche.webp" alt="mar">
+          <img src="./assets/cac3_marche.webp" alt="">
+          <img src="./assets/cac5marche.webp" alt="">
+          <img src="./assets/ca_marhe.webp" alt="">
+         </div>
           <p>
             Malheureusement, arrivé 
             en pleine periode Covid, 
@@ -107,20 +116,71 @@
             s’adaptant aux restrictions sanitaires.
           </p> 
           <p>
-            Seul infirmier en poste sans médecin sur place et avec comme
+            Seul infirmier en poste sans médecin sur place, et avec comme
             souci de mettre une filière covid en place, j'ai pu collaborer avec l'infirmier
-            libéral du village et encore plus tard enfin, une collègue venue de cayenne.
-            Etentiellement du travail de prévention, mais avec comme autre mission assurer
+            libéral du village et encore plus tard enfin, une collègue venue de Cayenne.
+            Essentiellement du travail de prévention, mais avec comme autre mission assurer
             des permanences au CDPS des
              <a href="https://www.guyane-amazonie.fr/je-vis-une-experience/nature/decouverte-marais-kaw/">
               Marais de Kaw 
              </a> situé a 2h de route de Cacao.
           </p>
+             
+             <h2>
+              <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+              Les Marais de Kaw
+              <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+            </h2>
+            <p>
+              Les Marais de Kaw, un bonheur d'attaquer la piste à partir de Roura, mais parfois la route nous reserve
+              de belles ou moins bonnes surprises.
+            </p>
+             <div class="illustration-block">
+              <div class="image-container">
+                <img src="./assets/kaw_tornade.webp" alt="ps caoca" class="illustration-75" />                
+              </div>
+              <div class="caption">On peut avoir des surprises aprés des pluies tropicales!                
+              </div>
+              <img src="./assets/kaw_paresseux2.webp" class="illustration-75"  alt="paresseux"> 
+              </div>
+               <div class="caption">ou qui traversent la route              
+              </div>
+              <p></p>
+            <p>
+                Arrivé au Dégrad, appel au piroguier pour venir vous récupérer et vous amener dans le 
+              petit village de kaw.
+            </p>
+             <!-- Vidéo -->
+            <div class="video-container">
+                <video controls width="80%" poster="assets/apercu.jpg">
+                    <source src="./videos/kaw_pirogue.mp4" type="video/mp4" />
+                </video>
+                 <div class="caption">
+          On peut aussi allier la visite au boulot!
+        </div>
+            </div> 
+          <!----====================================================================================================
+          Telecharger video de Kaw sur FB Rappel important!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+          ============================================================================================--->
+       
+            <div class="gallery-container">
+                <div class="main-image">
+                    <button class="nav left">&#10094;</button>
+                    <img class="displayed-img" src="./assets/kaw1_mrais.webp" alt="Image principale" />
+                    <button class="nav right">&#10095;</button>
+                </div>
+                <div class="thumbnails">
+                   <img src="./assets/kaw1_mrais.webp" alt="kaw" class="thumb active">
+                   <img src="./assets/kaw3_mrais.webp" alt="kaw">
+                   <img src="./assets/kaw4_mrais.webp" alt="kaw">
+                   <img src="./assets/kaw5_mrais.webp" alt="kaw">
+                   <img src="./assets/kaw6_mrais.webp" alt="kaw">
+                   <img src="./assets/kaw7_mrais.webp" alt="kaw">                   
+                </div>
+            </div>
+        </div> 
       </section>
-  </main>
-      
-    
-</main>
+
     <button id="dark-mode-btn">
         <img src="./assets/toucan-loader.png" alt="Dark Mode" class="icon-title">
     </button>
@@ -131,16 +191,15 @@
     </footer>
    
     <!-- ================= BOUTON FLOTTANT ================= -->
-    <a href="cdps.html" class="btn-cdps">CDPS</a>
-
-    <!-- ================= SCRIPTS ================= -->
+    <!-- Bouton flottant CDPS (visible uniquement sur mobile/tablette) -->
+            <a href="#retour" class="btn-cdps">Menu</a>   
      <!-- Lightbox générique -->
 <div id="lightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
 background:rgba(0,0,0,0.85); justify-content:center; align-items:center; z-index:2000;">
   <span id="lightbox-close" style="position:absolute; top:20px; right:30px; font-size:2rem; color:#fff; cursor:pointer;">&times;</span>
   <img id="lightbox-img" src="" alt="" style="max-width:90%; max-height:90%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.5);" />
 </div>
-
-    <script src="./script.js"></script>
+    <!-- ================= SCRIPTS ================= -->
+     <script src="./script.js"></script>    
 </body>
 </html>

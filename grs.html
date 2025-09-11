@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Infirmier en Guyane</title>
+    <title>Infirmier en Guyane : GRS</title>
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>  
@@ -17,9 +17,9 @@
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
   </div>
 
-  <h1>
+  <h1 id="retour">
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-    Infirmier en Guyane
+    Infirmier en Guyane : Grs
     <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
   </h1>
 
@@ -45,6 +45,7 @@
           <li><a href="./cam.html">Camopi & Régina</a></li>
           <li><a href="./apa.html">Apatou</a></li>
           <li><a href="./cac.html">Cacao & Marais de Kaw</a></li>
+          <li><a href="./mar.html">Maripasoula , Cayenne, saint Laurent du Maroni</a></li>
         </ul>
       </li>
 
@@ -183,9 +184,12 @@ recommandé et ce qui est réellement possible.</p>
     <!-------A retravailler format webp-->
     <!------------------------------------------>
     <div class="thumbnails-several">
-      <img src="./assets/kam.jpg" alt="kampoe">
+      <img src="./assets/kam11_resultat.webp" alt="kampoe">
       <img src="./assets/kam1.jpg" alt="kampoe">
       <img src="./assets/kam2.jpg" alt="kampoe">
+      <img src="./assets/kam10_resultat.webp" alt="Kampoe">
+      <img src="./assets/kam.jpg" alt="Kampoe">
+      <img src="./assets/kam3.webp" alt="Kampoe">
     </div>
   <!------------------------------------------>
   <!------------------------------------------>
@@ -203,22 +207,26 @@ recommandé et ce qui est réellement possible.</p>
             a permis à nouveau de nous réunir, en Belgique, en Suisse, aux quatre coins de la France ou plutôt
             aux cinq.
         </p>
-        <div class="thumbnails-several">
-            <img src="./assets/grs_groupe1_resultat.webp" alt="or" class="thumb" />
-            <img src="./assets/grs_groupe2.jpg" alt="or" class="thumb" />
-            <img src="./assets/grs_groupe3_resultat.webp" alt="iguane" class="thumb" /> 
-            <img src="./assets/grs_groupe4_resultat.webp" alt="iguane" class="thumb" /> 
-            <img src="./assets/grs_groupe5_resultat.webp" alt="iguane" class="thumb" /> 
-            <img src="./assets/grs_groupe_resultat.webp" alt="iguane" class="thumb" /> 
-            <img src="./assets/grs_groupe.webp" alt="iguane" class="thumb" /> 
-            <!-- <img src="./assets/grs_groupe1.webp" alt="iguane" class="thumb" />  -->
-            <img src="./assets/grs_groupe3.webp" alt="iguane" class="thumb" /> 
-            <img src="./assets/grs_groupe4_resultat.webp" alt="iguane" class="thumb" />          
-         </div> 
-         <h2><img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />
-          Faut pas tout croire, on se repose aussi
+        <div class="illustration-block">
+          <div class="thumbnails-several">
+            <img src="./assets/grs_groupe1_resultat.webp" alt="Illustration CDPS" class="illustration-75" />
+            <img src="./assets/grs_group.jpg" alt="Illustration CDPS" class="illustration-75" />
+            <div class="caption">
+              <!--------inserer une légende-->
+            </div>
+          </div>
+        </div>
+       
+         <h2>
           <img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />
-        </h2>  
+          Faut pas tout croire, on se repose aussi
+          <img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />        
+        </h2> 
+         <h3>
+          <img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />
+          On savoure comme on peut les moments de répits!
+          <img src="./assets/toucan-loader.png" alt="icone" class="icon-title" />
+        </h3> 
          <div class="thumbnails-several">
           <img src="./assets/apa_repos.webp" alt="repos">
           <img src="./assets/apa1_repos.webp" alt="repos">
@@ -238,9 +246,20 @@ recommandé et ce qui est réellement possible.</p>
     il apprend une nouvelle médecine du réel, où la technique se 
     mêle à l’adaptation, et où chaque geste est chargé de contexte 
     social, culturel et politique, et ou la compréhension  des uns envers les autres en devient
-    si importante.  
+    si importante. 
        
 </p>
+ <div class="thumbnails-several">            
+            <img src="./assets/grs_groupe2.jpg" alt="or" class="thumb" />
+            <!-- <img src="./assets/grs_groupe3_resultat.webp" alt="iguane" class="thumb" />  -->
+            <img src="./assets/grs_groupe4_resultat.webp" alt="iguane" class="thumb" /> 
+            <img src="./assets/grs_groupe5_resultat.webp" alt="iguane" class="thumb" /> 
+            <img src="./assets/grs_groupe_resultat.webp" alt="iguane" class="thumb" /> 
+            <img src="./assets/grs_groupe.webp" alt="iguane" class="thumb" /> 
+           
+            <img src="./assets/grs_groupe3.webp" alt="iguane" class="thumb" /> 
+            <img src="./assets/grs_groupe4_resultat.webp" alt="iguane" class="thumb" />          
+         </div> 
  <h3>Petit florilège</h3>
         <div class="carousel-wrapper">
             <div class="gallery-container">
@@ -273,6 +292,8 @@ recommandé et ce qui est réellement possible.</p>
      <button id="dark-mode-btn">
         <img src="./assets/toucan-loader.png" alt="Dark Mode" class="icon-title">
     </button>
+     <!-- Bouton flottant CDPS (visible uniquement sur mobile/tablette) -->
+            <a href="#retour" class="btn-cdps">Menu</a>
 
             
     <!-- ================= FOOTER ================= -->
@@ -280,8 +301,7 @@ recommandé et ce qui est réellement possible.</p>
         <p>© 2025 Infirmier en Guyane. Tous droits réservés.</p>
     </footer>
    
-    <!-- ================= BOUTON FLOTTANT ================= -->
-    <a href="cdps.html" class="btn-cdps">CDPS</a>
+    
 
     <!-- ================= SCRIPTS ================= -->
      <!-- Lightbox générique -->
