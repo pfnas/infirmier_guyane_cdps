@@ -1172,3 +1172,6 @@ body.dark-mode footer {
   opacity: 1;
   pointer-events: auto; /* bloque les clics seulement quand actif */
 }
+h3{
+  text-align: center;
+}
