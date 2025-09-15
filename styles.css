@@ -678,6 +678,7 @@ button.nav.right{ right: 16px; }
     justify-content: space-between; /* logo/titre à gauche, hamburger à droite */
     align-items: center;
     padding: 12px 20px;
+    flex-direction: column;
   }
 
   /* Nav drawer */
@@ -1175,3 +1176,4 @@ body.dark-mode footer {
 h3{
   text-align: center;
 }
+
