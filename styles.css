@@ -1177,3 +1177,61 @@ h3{
   text-align: center;
 }
 
+/* Bouton CDPS à gauche (style identique au dark mode) */
+.btn-cdps {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;           /* à gauche */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #009739 0%, #FFD100 100%);
+  color: #000;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+  opacity: transparent;
+}
+
+.btn-cdps:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Garde le Dark Mode à droite comme avant */
+#dark-mode-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #009739 0%, #FFD100 100%);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+}
+
+#dark-mode-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Icones à l'intérieur des boutons */
+.btn-cdps img,
+#dark-mode-btn img {
+  width: 36px;
+  height: 36px;
+}
