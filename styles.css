@@ -95,6 +95,15 @@ body.dark-mode .btn-cdps {
   height: auto;
   box-shadow: 6px 6px 20px rgba(0,0,0,0.18); /* ombre accentuée */
 }
+video {
+  width: 80%;
+  max-width: 800px; /* optionnel : limite la largeur */
+  height: auto;     /* garde les proportions */
+  display: block;
+  margin: 0 auto;   /* optionnel : centre la vidéo */
+}
+
+
 
 .video-container {
   position: relative;
