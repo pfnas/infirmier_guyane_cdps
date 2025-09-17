@@ -60,9 +60,9 @@ blockquote, .caption {
 ======================= */
 @media (max-width: 768px) { 
  
-  .thumbnails-several img:nth-child(3) { 
+  /* .thumbnails-several img:nth-child(3) { 
     display: none; 
-  }
+  } */
 
   blockquote {
     font-style: italic;
