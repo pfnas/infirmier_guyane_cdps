@@ -27,7 +27,7 @@ code galerie photo
                 <img src="./assets/veg2.webp" alt="vegetation"  class="thumb" loading="lazy"/>
                 <img src="./assets/veg3.webp" alt="vegetation" class="thumb" loading="lazy"/>
                 <img src="./assets/veg4.webp" alt="vegetation" class="thumb" loading="lazy"/>
-                <img src="./assets/veg6.webp" alt="vegetation"  class="thumb"loading="lazy" />
+                <img src="./assets/veg6.webp" alt="vegetation"  class="thumb" loading="lazy" />
                 <img src="./assets/veg7.webp" alt="vegetation"  class="thumb" loading="lazy"/>
                 <img src="./assets/papayer.webp" alt="vegetation"  class="thumb" loading="lazy"/>
                 <img src="./assets/fromager_resultat.webp" alt="vegetation" class="thumb" loading="lazy"/>
