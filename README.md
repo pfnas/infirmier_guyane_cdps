@@ -33,5 +33,27 @@ code galerie photo
                 <img src="./assets/fromager_resultat.webp" alt="vegetation" class="thumb" loading="lazy"/>
                 <img src="./assets/arbre_lune.webp" alt="arbre" class="thumb" loading="lazy"/>         
             </div>
+****************************************************
+image a 75% et 100% responsive
+ <div class="illustration-block">
+      <div class="image-container">       
+        <img src="./assets/stg_cdps.webp" alt="Illustration CDPS" class="illustration-75" />
+        <div class="caption">
+          Saint Georges de l'Oyapocke
+        </div>
+         <img src="./assets/stg_frontiere_resultat.webp" alt="pont" class="illustration-75">
+      </div>        
+    </div> 
+*******************************************************
+seion video
+<div class="video-container">
+            <video controls width="80%" poster="assets/apercu.jpg">
+              <source src="./videos/20190723_111725.mp4" type="video/mp4" />
+          </video>
+          </div>
+             <div class="caption">
+                      Grand Santi          
+            </div>   
+
            
 
