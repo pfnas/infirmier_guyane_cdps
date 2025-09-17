@@ -59,7 +59,7 @@ blockquote, .caption {
    Blockquote - style responsive mobile
 ======================= */
 @media (max-width: 768px) { 
- ÷
+ 
   .thumbnails-several img:nth-child(3) { 
     display: none; 
   }
