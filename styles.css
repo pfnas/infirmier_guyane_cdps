@@ -1245,3 +1245,32 @@ h3{
   height: 36px;
 }
 img {max-width:100%;height:auto;}
+/* Container qui contient plusieurs vidéos */
+.video-container {
+  display: flex;
+  flex-wrap: wrap;           /* permet de revenir à la ligne si l’écran est trop petit */
+  justify-content: center;   /* centre les vidéos */
+  gap: 25px;                 /* espace entre les vidéos */
+  padding: 10px;
+}
+
+/* Chaque vidéo prend environ la moitié de la largeur */
+.video-container video {
+  flex: 1 1 45%;             /* ~45% du conteneur */
+  max-width: 45%;
+  height: auto;
+  display: block;
+}
+
+/* Sur mobile : elles se mettent l’une sous l’autre */
+@media (max-width: 768px) {
+  .video-container {
+    flex-direction: column;  /* empile les vidéos */
+    gap: 16px;
+  }
+  .video-container video {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
