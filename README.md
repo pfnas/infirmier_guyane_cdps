@@ -53,7 +53,44 @@ seion video
           </div>
              <div class="caption">
                       Grand Santi          
-            </div>   
+            </div>  
+****************************************************************************************************
+part of de footer and logo
+
+footer {
+  background: #f4f4f4; /* couleur de fond du footer */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  padding: 15px 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* centre verticalement texte et logo */
+  justify-content: center; /* centre horizontalement tout le bloc */
+  gap: 10px; /* espace entre logo et texte */
+}
+
+.footer-logo img,
+.logo-footer {
+  width: 40px;  /* taille du logo */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.footer-logo img:hover,
+.logo-footer:hover {
+  transform: scale(1.1); /* petit zoom au survol */
+  cursor: pointer;
+}
+
+footer p {
+  margin: 0; /* enlève le margin par défaut du <p> */
+}
+
+
+
 
            
 
