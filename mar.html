@@ -1,228 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Maripasoula</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Maripasoula</title>
+  <style>
+    /* largeur vidéo en CSS */
+    .video80 {
+      width: 80%;
+      max-width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <header>
-          <div class="logo">
-    <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-    <img src="./assets/Flag_of_French_Guiana_resultat.webp" alt="Logo">
-    <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+  <header>
+    <div class="logo">
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+      <img src="./assets/Flag_of_French_Guiana_resultat.webp" alt="Logo">
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+    </div>
+
+    <h1 id="retour">
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+      Infirmier en Guyane : Mpa
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+    </h1>
+
+    <!-- Hamburger -->
+    <button class="hamburger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <!-- Overlay -->
+    <div class="nav-overlay"></div>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="./index.html">Accueil</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">CDPS</a>
+          <ul class="dropdown-menu">
+            <li><a href="./grs.html">Grand Santi</a></li>
+            <li><a href="./stg.html">Saint-Georges de l’Oyapock</a></li>
+            <li><a href="./trs.html">Trois-Sauts</a></li>
+            <li><a href="./cam.html">Camopi & Régina</a></li>
+            <li><a href="./apa.html">Apatou</a></li>
+            <li><a href="./cac.html">Cacao & Marais de Kaw</a></li>
+            <li><a href="./mar.html">Maripasoula <br> Cayenne <br> Saint-Laurent du Maroni</a></li>
+          </ul>
+        </li>
+        <li><a href="#guyane">A propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="caption">
+      Vol au dessus du Maroni
+    </div>
+
+    <div class="thumbnails-several">
+      <div>
+        <img src="./assets/maroni_fleuve.webp" alt="vue aerienne maroni" class="thumb">
+        <img src="./assets/avion_resultat.webp" alt="avion" class="thumb">
+        <img src="./assets/mpa_maroni_avion.webp" alt="vue aerienne maroni" class="thumb">
+        <div class="caption">
+          Il est temps de partir en commune!
+        </div>
+       
+      </div>
+    </div>
+    
+
+    <p>
+      Maripasoula, Cayenne, Saint Laurent du Maroni, je n'y aurai exercé
+      qu'en HAD et CMP. L'HAD Cayenne, une première approche de la Guyane qui m'a permis
+      de me rendre directement au coeur de ces différentes cultures sur le littoral.
+    </p>
+     <div class="video-container">
+          <video controls class="video80" poster="assets/apercu.jpg">
+            <source src="./videos/20240122_120919.mp4" type="video/mp4">
+          </video>
+        </div>
+
+    <h2>
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+      Maripasoula
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+    </h2>
+    <p>
+      Maripasoula est une commune isolée du Haut-Maroni, 
+      accessible surtout par avion ou pirogue.
+      J’y ai exercé comme infirmier au CMP 
+      (centre médico-psychologique), où les problématiques 
+      de santé mentale sont très présentes, notamment 
+      avec une forte incidence des suicides chez les populations adolescesntes amérindiennes.
+    </p>
+    <p>
+      Quelques années plus tard, j'y suis revenu
+      en HAD (hospitalisation à domicile) auprès de
+      la population Aluku (descendants de Marrons), dans un contexte multiculturel exigeant.
+      Mon rôle incluait aussi la coordination avec 
+      le CDPS et différents acteurs sociaux, 
+      ainsi que la gestion logistique de la pharmacie notemment pour
+      assurer la continuité des traitements, mais aussi du materiel nécéssaire à une 
+      conntinuité des soins
+      malgré l’éloignement et les difficultés d’approvisionnement.
+    </p>
+    <p>
+      Pour la petite histoire, on se sent bien seul quand le réseau internet ou téléphonene fonctionne pas,
+      ou quand l'électrité est coupée.
+      Mais parfois c'est pas mal de débrancher pour ne pas avoir l'administration sur le dos..
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="1em" height="1em" style="vertical-align: middle;">
+              <!-- Cercle extérieur jaune -->
+              <circle cx="32" cy="32" r="30" fill="yellow" stroke="black" stroke-width="2"/>
+              
+              <!-- Yeux -->
+              <circle cx="22" cy="24" r="4" fill="black"/>
+              <circle cx="42" cy="24" r="4" fill="black"/>
+              
+              <!-- Sourire qui rigole -->
+              <path d="M20 38 Q32 50 44 38 Q32 46 20 38" stroke="black" stroke-width="2" fill="transparent"/>
+            </svg>
+    </p>
+
+    <div class="illustration-block">
+      <div class="image-container">
+        <img src="./assets/maripa_panneau.webp" alt="Illustration CDPS" class="illustration-75">
+        <div class="caption">
+          Tout est dit sur le panneau
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div>
+      <video controls class="video80" poster="assets/apercu.jpg">
+        <source src="./videos/mpa.mp4" type="video/mp4">
+      </video>
+      <div class="caption">
+        Maripasoula
+      </div>
+      </div>
+    </div>
+
+    <h2>
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+      Cayenne
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+    </h2>
+
+    <p>
+      Infirmier à Cayenne, loin de la métropole, je vis un quotidien unique.
+      L’éloignement de nos familles restées en métropole nous rapproche entre collègues :
+      travail, balades et loisirs s’entremêlent dans une ambiance tropicale et chaleureuse sous le soleil amazonien.
+    </p>
+
+    <!-- reste de ton contenu Cayenne + carousel (images OK, pas de loading sur source) -->
+
+    <div class="video-container">
+      <video controls class="video80" poster="assets/apercu.jpg">
+        <source src="./videos/tortillon.mp4" type="video/mp4">
+      </video>
+      <video controls class="video80" poster="assets/apercu.jpg">
+        <source src="./videos/tortillon2_sans_son.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="caption">
+      C'est t'y pas mignon??
+    </div>
+
+    <h2>
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+      Saint Laurent du Maroni
+      <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
+    </h2>
+    <p>
+      Un peu le point de départ en pirogue pour rejoindre, les Kampoes
+      disséminés sur le Haut Maroni, mais aussi anciennement Bagne.
+    </p>
+    <div class="thumbnails-several">
+      <img src="./assets/stl_bagne.webp" alt="bagne">
+      <img src="./assets/stl_bagne1.webp" alt="bagne">
+      <img src="./assets/stl_bagne2.webp" alt="bagne">
+      <img src="./assets/stl_bagne3.webp" alt="bagne">
+    </div>
+  </main>
+
+  <button id="dark-mode-btn">
+    <img src="./assets/toucan-loader.png" alt="Dark Mode" class="icon-title">
+  </button>
+
+  <footer>
+    <p>
+      © 2025 Infirmier en Guyane. Tous droits réservés.
+    </p>
+  </footer>
+
+  <a href="#retour" class="btn-cdps">Menu</a>
+
+  <!-- Lightbox -->
+  <div id="lightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+  background:rgba(0,0,0,0.85); justify-content:center; align-items:center; z-index:2000;">
+    <span id="lightbox-close" style="position:absolute; top:20px; right:30px; font-size:2rem; color:#fff; cursor:pointer;">&times;</span>
+    <img id="lightbox-img" alt="" style="max-width:90%; max-height:90%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.5);">
   </div>
 
-  <h1 id="retour">
-    <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-    Infirmier en Guyane : Mpa
-    <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-  </h1>
-
-  <!-- Hamburger -->
-  <button class="hamburger" aria-label="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <!-- Overlay -->
-  <div class="nav-overlay"></div>
-
-  <nav>
-    <ul class="nav-list">
-      <li><a href="./index.html">Accueil</a></li>
-
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle">CDPS</a>
-        <ul class="dropdown-menu">
-          <li><a href="./grs.html">Grand Santi</a></li>
-          <li><a href="./stg.html">Saint-Georges de l’Oyapock</a></li>
-          <li><a href="./trs.html">Trois-Sauts</a></li>
-          <li><a href="./cam.html">Camopi & Régina</a></li>
-          <li><a href="./apa.html">Apatou</a></li>
-          <li><a href="./cac.html">Cacao & Marais de Kaw</a></li>
-          <li><a href="./mar.html">Maripasoula <br> Cayenne <br> saint Laurent du Maroni</a></li>
-        </ul>
-      </li>
-
-      <li><a href="#guyane">A propos</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-    </header>
-    <main>
-       <div class="caption">
-          Vol au dessus du Maroni
-        </div>
-        
-    <div class="illustration-block">
-      <div class="image-container">       
-        <img src="./assets/maroni_fleuve.webp" alt="vue aerienne maroni" class="illustration-75" />
-         <div class="caption">
-                     Il est temps de partir en commune!
-            </div>    
-          <div class="video-container">
-                <video controls width="80%" poster="assets/apercu.jpg">
-                    <source src="./videos/20240122_120919.mp4" type="video/mp4" />
-                </video>
-            </div>                
-          </div>        
-    </div>   
-    <p>
-        Maripasoula, Cayenne, Saint Laurent du Maroni, je n'y aurai exercé 
-        qu'en HAD et CMP. L'HAD Cayenne, une première approche de la Guyane qui m'a permis 
-        de me rendre directement au coeur de ces différentes cultures sur le littoral.
-      </p>
-       <h2 id="retour">
-            <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-          Maripasoula
-        </h2>
-         <div class="illustration-block">
-          <div class="image-container">
-            <img src="./assets/maripa_panneau.webp" alt="Illustration CDPS" class="illustration-75" />
-            <div class="caption">
-              Tout est dit sur le panneau
-            </div>
-          </div>
-        </div>
-    <div class="video-container">
-            <video controls width="80%" poster="assets/apercu.jpg">
-              <source src="./videos/mpa.mp4" type="video/mp4" />
-          </video>
-    </div>
-      <div class="caption">
-          Maripasoula        
-      </div>   
-
-    <!------------------fin Maripasoula ----------------------------->
-     <!------------------fin Maripasoula ----------------------------->
-        <h2>
-           <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-            Cayenne
-          <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">            
-        </h2>
-        <p>Infirmier à Cayenne, loin de la métropole, je vis un quotidien unique. 
-          L’éloignement de nos familles restées en métropole nous rapproche entre collègues : travail, 
-          balades et loisirs s’entremêlent dans une ambiance tropicale et chaleureuse sous le soleil amazonien.</p>
-         <div class="illustration-block">
-          <div class="image-container">       
-            <img src="./assets/cay_team_had_resultat.webp" alt="Illustration CDPS" class="illustration-75" />
-            <div class="caption">
-            HAD Team
-          </div>        
-          </div> 
-        </div>    
-   <div >
-   <div class="illustration-block">
-    <div class="image-container">  
-        <img src="./assets/cay_palmistes2_resultat.webp" alt="place" class="illustration-75">
-        <div class="caption">
-          Place des Palmistes
-        </div>
-    </div>
-   </div >
-              <p>
-               🌴 Cayenne: <br>
-                Capitale de la Guyane française, est une 
-                ville multiculturelle, animée et colorée. <p>Son centre 
-                mêle maisons créoles, marchés aux épices et front de mer. On y 
-                retrouve une ambiance caribéenne avec des influences brésiliennes et
-                surinamaises. </p>
-                <p>Le marché central de Cayenne est réputé pour ses fruits tropicaux, ses plats créoles.. 
-                La ville est bordée par l’océan Atlantique, 
-                ce qui lui donne un climat tropical humide, rythmé par les alizés.</p>
-
-                <p>
-                  🏖 Remire-Montjoly: <br>
-                  Juste à l’est de Cayenne, 
-                  est l'endroit où l’on vient profiter 
-                  des plages les plus accessibles : la plage des Salines, 
-                  la plage de Montjoly ou encore celle des Brésiliens. 
-                  C’est aussi un site important pour l’observation des tortues marines 
-                  qui viennent y pondre leurs œufs. 
-                </p> 
-                
-              <h2> <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-                Petit florilège <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-              </h2>              
-        <div class="carousel-wrapper">
-            <div class="gallery-container">
-                <div class="main-image">
-                    <button class="nav left">&#10094;</button>
-                    <img class="displayed-img" src="./assets/cay_marche1.webp" alt="Image principale" loading="lazy"/>
-                    <button class="nav right">&#10095;</button>
-                </div>
-                <div class="thumbnails">                    
-                    <img src="./assets/cay_marche1.webp" alt="marché" class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_marche2.webp" alt="marché" class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_marche3.webp" alt="marché" class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_marche4.webp" alt="marché" class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_marche5.webp" alt="marché" class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_plage.webp" alt="plage" class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_plage1.webp" alt="plage"  class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_plage2.webp" alt="plage"  class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_plage2.webp" alt="plage"  class="thumb" loading="lazy"/> 
-                    <img src="./assets/cay_plage3.webp" alt="plage" class="thumb" loading="lazy"/> 
-                    <img src="./assets/cay_plage4.webp" alt="plage"  class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_plage5.webp" alt="plage"  class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_plage6.webp" alt="plage"  class="thumb" loading="lazy"/> 
-                    <img src="./assets/cayenne.webp" alt="plage"  class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_had.webp" alt="plage"  class="thumb" loading="lazy"/> 
-                    <img src="./assets/cay_had1.webp" alt="plage"  class="thumb" loading="lazy"/> 
-                    <img src="./assets/cay_had2.webp" alt="plage"  class="thumb" loading="lazy"/> 
-                    <img src="./assets/cay_appart1.webp" alt="plage"  class="thumb" loading="lazy"/>
-                    <img src="./assets/cay_appart.webp" alt="plage"  class="thumb" loading="lazy"/>                                       
-                </div>
-            </div>
-        </div>  <h3>L'émergence des tortues</h3>
-                <p>Petit pincement au coeur, quand on sait que peu parviendront à l'âge adulte</p>
-         <div class="video-container">
-                <video controls width="80%" poster="assets/apercu.jpg">
-                    <source src="./videos/tortillon.mp4" type="video/mp4" loading="lazy"/>
-                </video>
-                 <video controls width="80%" poster="assets/apercu.jpg">
-                    <source src="./videos/tortillon2_sans_son.mp4" type="video/mp4" loading="lazy"/>
-                </video>
-         </div>
-             <div class="caption">
-                      C'est t'y pas mignon??           
-            </div>            
-      <h2>
-        <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-           Saint Laurent du Maroni
-        <img src="./assets/toucan-loader.png" alt="icone" class="icon-title">
-      </h2>
-      <p>Un peu le point de départ en pirogue pour rejoindre, les Kampoes
-        disséminés sur le Haut Maroni, mais aussi anciennement Bagne.
-      </p>
-      <div class="thumbnails-several">
-        <img src="./assets/stl_bagne.webp" alt="bagne">
-        <img src="./assets/stl_bagne1.webp" alt="bagne">
-        <img src="./assets/stl_bagne2.webp" alt="bagne">
-        <img src="./assets/stl_bagne3.webp" alt="bagne">
-      </div>
-    </main>
-     <button id="dark-mode-btn">
-        <img src="./assets/toucan-loader.png" alt="Dark Mode" class="icon-title">
-    </button>  
-    <!-- <h2 id="mar"> Maripasoula</h2>        -->
- 
-    <!-- Pied de page -->
-    <footer>
-        <p>            
-            © 2025 Infirmier en Guyane. Tous droits réservés.
-        </p>
-    </footer>
-     <!-- Bouton flottant CDPS (visible uniquement sur mobile/tablette) -->
-            <a href="#retour" class="btn-cdps">Menu</a>
-            <!-- Lightbox générique -->
-<div id="lightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
-background:rgba(0,0,0,0.85); justify-content:center; align-items:center; z-index:2000;">
-  <span id="lightbox-close" style="position:absolute; top:20px; right:30px; font-size:2rem; color:#fff; cursor:pointer;">&times;</span>
-  <img id="lightbox-img" src="" alt="" style="max-width:90%; max-height:90%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.5);" />
-</div>
-    <script src="./script.js"></script>
-    
+  <script src="./script.js"></script>
 </body>
 </html>
