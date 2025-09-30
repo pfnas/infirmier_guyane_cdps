@@ -1,6 +1,6 @@
 ************************************************
 code carousel
-      <!-- <h3>Les moyens de locomotion</h3> -->
+      <h3>Pas de kilometres, pas de frontieres</h3>
         <div class="carousel-wrapper">
             <div class="gallery-container">
                 <div class="main-image">
@@ -11,7 +11,7 @@ code carousel
                 <div class="thumbnails">
                     <img src="./assets/avion.webp" alt="avion" class="thumb" loading="lazy"/>
                    
-                    <!-- <img src="./assets/panier_a_salade.webp" alt="voiture" class="thumb" />   -->
+                   <img src="./assets/panier_a_salade.webp" alt="voiture" class="thumb" />  
                 </div>
             </div>
         </div>       
