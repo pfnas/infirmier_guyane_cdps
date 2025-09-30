@@ -18,7 +18,7 @@ html, body {
   --card:#f0f0f0;       /* conteneurs légèrement gris pour contraste */
   --text:#333;
   --muted:#666;
-  --brand:#5bd336;
+  --brand:#75db55;
   --brand-600:#27682b;
   --brand-300:#6fbf73;
     --brand: #5bd336;           /* couleur principale */
@@ -1075,7 +1075,7 @@ body.dark-mode footer {
   .thumbnails-several img,
   .thumbnails-videos .thumb {
     flex: 1 1 48%;      /* 2 miniatures par ligne */
-    max-width: 48%;
+    max-width: 95%;
   }
 
   /* Carousel principal */
@@ -1281,5 +1281,46 @@ img {max-width:100%;height:auto;}
     max-width: 100%;
   }
 }
+.thumbnails-several {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.thumbs-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thumb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;       /* largeur fixe sur desktop */
+}
+
+.thumb {
+    width: 100%;
+    aspect-ratio: 4 / 3;  /* ratio uniforme */
+    object-fit: contain;   /* contenu entier visible */
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+
+.caption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .thumb-container {
+        width: 100%;        /* prend 90% de l’écran sur mobile */
+        max-width: none;   /* supprime la limite de largeur desktop */
+    }
+}
+
 
 
