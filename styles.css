@@ -21,6 +21,9 @@ html, body {
   --brand:#5bd336;
   --brand-600:#27682b;
   --brand-300:#6fbf73;
+    --brand: #5bd336;           /* couleur principale */
+  --brand-rgb: 91, 211, 54;   /* RGB correspondant à #5bd336 */
+
 }
 
 main {
@@ -294,18 +297,22 @@ header nav .nav-list{
   top: 100%;
   left: 0;
   background: var(--brand);
+  background: rgba(var(--brand-rgb), 0.75); /* couleur avec 85% opacity */
   padding: 10px 0;
   list-style: none;
   border-radius: 8px;
   min-width: 220px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.28);
   z-index: 20;
+   backdrop-filter: blur(6px); /* léger flou pour lisibilité */
+   
 }
+
 
 .dropdown-menu li a{
   display: block;
   padding: 10px 14px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   text-decoration: none;
   transition: background .25s ease;
