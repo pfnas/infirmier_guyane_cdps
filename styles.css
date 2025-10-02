@@ -217,6 +217,13 @@ h4 .icon-title {
   width: auto;
   display: inline-block;
 }
+.icon-title {
+  height: 2.5em;              /* taille proportionnelle au texte */
+  width: auto;              /* conserve les proportions */
+  vertical-align: middle;   /* aligne avec le texte */
+  margin-left: 0.2em;       /* petit espace entre le mot et l’icône */
+}
+
 
 /* =======================
    ICONES LOGO & H1
