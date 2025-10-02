@@ -228,9 +228,6 @@ h4 .icon-title {
 /* =======================
    ICONES LOGO & H1
 ======================= */
-/* .icon-title { display: none; } */
-
-
 /* PC (>=1025px) */
 @media (min-width: 1025px) {
   h1 .icon-title { display: inline-block; }
