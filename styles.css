@@ -1323,6 +1323,18 @@ img {max-width:100%;height:auto;}
         max-width: none;   /* supprime la limite de largeur desktop */
     }
 }
+.centered-block {
+  display: flex;
+  flex-direction: column;  /* image au-dessus, texte en-dessous */
+  align-items: center;     /* centre l'image horizontalement */
+  text-align: center;      /* centre le texte */
+}
+
+.centered-block .caption {
+  word-wrap: break-word;   /* le texte revient à la ligne si nécessaire */
+  word-break: break-word;  /* compatible navigateurs */
+}
+
 
 
 
