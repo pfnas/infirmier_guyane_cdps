@@ -1,3 +1,8 @@
+//============
+//dark mode par defaut
+//====================
+document.body.classList.add("dark-mode");
+
 // =======================
 // CAROUSEL
 // =======================
