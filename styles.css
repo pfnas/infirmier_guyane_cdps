@@ -34,6 +34,25 @@ main {
   border-radius: 12px;
   box-shadow: 0 8px 28px rgba(0,0,0,.25); /* ombre accentuée */
 }
+.au-revoir {
+  display: flex;
+  flex-direction: column; /* texte au-dessus du gif */
+  align-items: center;    /* centrage horizontal */
+  text-align: center;
+  gap: 0.5rem;            /* petit espace entre texte et gif */
+}
+
+.au-revoir p {
+  margin: 0;              /* supprime marge par défaut */
+}
+
+.gif-au-revoir {
+  max-width: 200px;       /* adapte la taille */
+  height: auto;
+  display: block;
+}
+
+
 main,
 .video-container,
 .illustration,
