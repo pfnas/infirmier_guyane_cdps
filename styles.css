@@ -37,8 +37,8 @@ main {
 .au-revoir {
   display: flex;
   flex-direction: column; /* texte au-dessus du gif */
-  align-items: center;    /* centrage horizontal */
-  text-align: center;
+  align-items: center !important;    /* centrage horizontal */
+  text-align: center !important; /* centrage texte */
   gap: 0.5rem;            /* petit espace entre texte et gif */
 }
 
